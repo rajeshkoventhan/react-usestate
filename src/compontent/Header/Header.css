@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600&family=Dela+Gothic+One&family=Hurricane&family=Inter:wght@200&family=Lobster&family=Manrope:wght@200;600&family=Pacifico&family=Poiret+One&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,400;1,900&family=Smokum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background:yellow;
+}
+.headercenter{
+flex: 0.6;
+
+}
+
+
+.headerlist{
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+
+.headeritem{
+    display: flex;
+    padding-right:40px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.headerlogo{
+    flex:0.4;
+  font-size: 20px;
+  display: flex;
+  justify-content:flex-start;
+}
